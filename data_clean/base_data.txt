@@ -1,0 +1,30 @@
+working_capital
+fixed_assets
+total_assets
+net_profit = X1 * total_assets
+total_liabilities
+retained_earnings
+sales
+sales(n-1)
+total_sales
+total_costs
+equity
+gross_profit
+inventory
+profit_on_sales
+profit_on_operations
+financial_expenses
+3_year_gross_profit
+book_value_of_equity
+short-term liabilities
+long-term_liabilities
+current_assets
+share capital
+cash
+operating_expenses
+constant_capital
+recievables
+EBIT
+EBITDA
+cost_of_sold_products
+extraordinary_items

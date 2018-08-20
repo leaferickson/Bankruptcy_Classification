@@ -1,0 +1,56 @@
+working_capital = X55
+fixed_assets = X55 / X28
+total_assets = X55 / X3
+net_profit = X1 * total_assets = X45 * inventory
+total_liabilities = X2 * total_assets
+retained_earnings = X6 * total_assets
+sales = X9 * total_assets
+sales(n-1) = sales / X21
+total_sales = X36 * total_assets
+total_costs = X58 * total_sales
+equity = X10 * total_assets
+gross_profit = X18 * total_assets
+inventory = X20 * sales / 365
+profit_on_sales = X35 * total_assets = X39 * sales
+profit_on_operations = X22 * total_assets = X42 * sales
+financial_expenses = profit_on_operations / X27
+predicted_3_year_gross_profit = X24 * total_assets (or 3-year running?)
+book_value_of_equity = X8 * total_liabilities
+short-term liabilities = gross profit / X12 = X51 * total_assets
+long-term_liabilities = X59 * equity
+current_assets = X50 * total_liabilities = short-term liabilities * X4
+share capital = equity / (total_assets * X25) - only in one row
+cash = total_liabilities / (sales * X30)
+operating_expenses = X34 * total_liabilities = X33 * short-term_liabilities
+constant_capital = X38 * total_assets = X54 * fixed_assets
+recievables = X44 * sales / 365
+EBIT = X7 * total_assets
+EBITDA = profit_on_operations - depreciation
+cost_of_sold_products = inventory * 365 / X47 = sales - (sales * X56)
+extraordinary_items = total_assets * X11 - gross_profits - financial_expenses
+
+interest = X31 * sales - gross_profit = total_assets * X14 - gross_profit
+depreciation = sales * X13 - gross_profit
+X43 rotation receivables + inventory turnover in days 
+
+X5 [(cash + short-term securities + receivables - short-term liabilities) / (operating expenses - depreciation)] * 365
+X32 (current liabilities * 365) / cost of products sold
+X37 (current assets - inventories) / long-term liabilities 
+X40 (current assets - inventory - receivables) / short-term liabilities 
+X41 total liabilities / ((profit on operating activities + depreciation) * (12/365)) 
+X46 (current assets - inventory) / short-term liabilities 
+X52 (short-term liabilities * 365) / cost of products sold)
+X57 (current assets - inventory - short-term liabilities) / (sales - gross profit - depreciation) 
+X61 sales / receivables 
+X62 (short-term liabilities *365) / sales 
+X63 sales / short-term liabilities 
+X64 sales / fixed assets
+
+X2 and X17 are inverses
+repeat info: X19, X23,
+check this row for data consistency: X31 (gross profit + interest) / sales, X14 (gross profit + interest) / total assets
+check this row for data consistency: X29 logarithm of total assets 
+check this row for data consistency: X13 (gross profit + depreciation) / sales, X15 (total liabilities * 365) / (gross profit + depreciation), X16 (gross profit + depreciation) / total liabilities, X26 (net profit + depreciation) / total liabilities, 
+check this row for data consistency: X60 sales / inventory 
+check this row for data consistency: X53 equity / fixed assets 
+check this row for data consistency: 

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bankruptcy Predictor</title>
+</head>
+
+<body align="center">
+
+  <p><br>This website lets you predict bankruptcies based on the information that you give it.<br>
+    Below you can download a CSV file with all the necesarry fields for the model.<br>
+    Reupload using the browse button and get your results witht the Submit button.<br></p>
+
+  <br>
+
+  <p>
+    Click <a href="/home/leaferickson/ds/metis/project3/flask_app/sample.csv">here</a> to download the model's fields.
+  </p>
+
+  <form action="/home/leaferickson/ds/metis/project3/flask_app/templates/test.html" method = "get">
+    <input type="file" name = "upload_data" accept=".csv" />
+    <input type="submit">
+    <action></action>
+  </form>
+
+</body>
+</html>
+
+
+
+
+<!-- /home/leaferickson/ds/metis/project3/flask_app/templates/test.html -->

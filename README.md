@@ -1,4 +1,4 @@
-# Bankruptcy_Classification
+# Bankruptcy Classification
 
 ## Organization and Methodology
 Data is in [Raw Data](https://github.com/leaferickson/Bankruptcy_Classification/tree/master/raw_data).
